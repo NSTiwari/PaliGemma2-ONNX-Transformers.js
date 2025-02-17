@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if(prompt.toLowerCase().includes("detect")) {
                  const labelMatch = prompt.match(/detect\s+(.*)/i);
                  const label = labelMatch ? labelMatch[1] : 'Unknown';
-                 prompt = `<image>detect bounding box of ${label}`;
+                 prompt = `<image>detect ${label}`;
             } else {
                  prompt = `<image>${prompt}`;
             }
