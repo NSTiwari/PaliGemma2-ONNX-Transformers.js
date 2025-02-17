@@ -90,7 +90,7 @@ app.post('/process-image', async (req, res) => {
                 const normY2 = Math.round((y2 / 1024) * raw_image.height);
 
                 // Extract the label from the prompt
-                const labelMatch = prompt.match(/detect bounding box of (.*)/);
+                const labelMatch = prompt.match(/detect (.*)/);
                 const label = labelMatch ? labelMatch[1] : "Unknown";
 
 
