@@ -25,8 +25,8 @@ const model = await PaliGemmaForConditionalGeneration.from_pretrained(
     model_id,
   {
       dtype: {
-        embed_tokens: "q8", // or 'fp16'
-          vision_encoder: "q8", // or 'q4', 'fp16'
+        embed_tokens: "fp16", // or 'fp16'
+          vision_encoder: "fp16", // or 'q4', 'fp16'
         decoder_model_merged: "q4", // or 'q4f16'
       },
   }
