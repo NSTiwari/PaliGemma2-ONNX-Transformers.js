@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                const data = await response.json();
 
                  if(data.success) {
-                     if (prompt.includes("<image>detect bounding box of")) {
+                     if (prompt.includes("<image>detect")) {
                         const { boundingBox } = data;
                         ctx.clearRect(0,0,processedCanvas.width, processedCanvas.height);
                         drawBoundingBox(boundingBox, ctx)
