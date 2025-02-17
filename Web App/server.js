@@ -74,7 +74,7 @@ app.post('/process-image', async (req, res) => {
         console.log("Prompt: ", prompt);
         console.log("Response: ", decodedAnswer[0]);
 
-        if (prompt.includes("<image>detect bounding box of")) {
+        if (prompt.includes("<image>detect")) {
               // Parse the response to extract bounding box coordinates
              const boundingBoxes = decodedAnswer[0].match(/<loc(\d+)>/g);
 
