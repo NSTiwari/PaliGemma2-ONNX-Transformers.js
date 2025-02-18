@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Clear off previous results.
         ctx.clearRect(0, 0, processedCanvas.width, processedCanvas.height);
-        responseTextDiv.innerHTML = 'Processing...';
+        responseTextDiv.innerHTML = 'Analyzing...';
         responseTextDiv.style.display = 'block';
 
 
