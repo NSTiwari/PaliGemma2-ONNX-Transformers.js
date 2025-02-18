@@ -73,7 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Please upload an image first.");
             return;
         }
-        
+
+        // Clear off previous results.
+        ctx.clearRect(0, 0, processedCanvas.width, processedCanvas.height);
         responseTextDiv.innerHTML = '';
         responseTextDiv.style.display = 'none';
         processingMessage.style.display = 'block';
