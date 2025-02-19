@@ -18,7 +18,7 @@ function getRandomColor() {
 }
 
 // Load processor and model
-const model_id = "NSTiwari/paligemma2-3b-mix-224-onnx"; // Change this to use a different PaliGemma model
+const model_id = "NSTiwari/paligemma2-3b-mix-224--onnx"; // Change this to use a different PaliGemma model
 const processor = await AutoProcessor.from_pretrained(model_id);
 const model = await PaliGemmaForConditionalGeneration.from_pretrained(
     model_id,
