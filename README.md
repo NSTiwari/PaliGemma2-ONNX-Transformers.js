@@ -17,9 +17,8 @@ This repository is a step-by-step implementation of converting and quantizing th
 
 ## Resources & References
 
-1. [Google DeepMind Imagen 3](https://deepmind.google/technologies/imagen-3/)
-2. [Imagen 3 Technical Report](https://storage.googleapis.com/deepmind-media/imagen/imagen_3_tech_report_update_dec2024_v2.pdf#page=26)
-3. Colab Notebook: 
+1. [Google DeepMind PaliGemma 2](https://developers.googleblog.com/en/introducing-paligemma-2-mix/)
+2. Colab Notebooks: 
 <table>
   <tr>
     <td><b>Convert and quantize PaliGemma 2 to ONNX</b></td>
@@ -31,9 +30,9 @@ This repository is a step-by-step implementation of converting and quantizing th
   </tr>
 </table>
 
+3. [**Medium Blog**](https://tiwarinitin1999.medium.com/) for step-by-step implementation.
+4. [ONNX Community](https://huggingface.co/onnx-community)
 
-4. [**Medium Blog**](https://tiwarinitin1999.medium.com/virtual-try-on-with-imagen-3-bd938acd4ec5) for step-by-step implementation.
-5. [Notebook example](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/vision/getting-started/imagen3_editing.ipynb): Google Cloud Platform repository
 
 ## Acknowledgment:
 <img src="https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/assets/google.png">
