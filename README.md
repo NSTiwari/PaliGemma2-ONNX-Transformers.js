@@ -15,6 +15,26 @@ This repository is a step-by-step implementation of converting and quantizing th
 ## Results:
 <img src="https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/assets/paligemma2-onnx-output.gif"/>
 
+## Resources & References
+
+1. [Google DeepMind Imagen 3](https://deepmind.google/technologies/imagen-3/)
+2. [Imagen 3 Technical Report](https://storage.googleapis.com/deepmind-media/imagen/imagen_3_tech_report_update_dec2024_v2.pdf#page=26)
+3. Colab Notebook: 
+<table>
+  <tr>
+    <td><b>Convert and quantize PaliGemma 2 to ONNX</b></td>
+    <td><a target="_blank" href="https://colab.research.google.com/github/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/Convert_PaliGemma2_to_ONNX.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+  </tr>
+  <tr>
+    <td><b>Inference PaliGemma 2 with Transformers.js</b></td>
+    <td><a target="_blank" href="https://colab.research.google.com/github/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/Inference_PaliGemma2_with_Transformers_js.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td>
+  </tr>
+</table>
+
+
+4. [**Medium Blog**](https://tiwarinitin1999.medium.com/virtual-try-on-with-imagen-3-bd938acd4ec5) for step-by-step implementation.
+5. [Notebook example](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/vision/getting-started/imagen3_editing.ipynb): Google Cloud Platform repository
+
 ## Acknowledgment:
 <img src="https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/assets/google.png">
 This project was developed as part of Google's ML Developer Programs Vertex AI sprint. Thanks to the MLDP Team for their generous support in providing GCP credits and Colab units to help facilitate this project.
