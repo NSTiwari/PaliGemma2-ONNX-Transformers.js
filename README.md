@@ -7,5 +7,8 @@ This repository is a step-by-step implementation of converting and quantizing th
 2. Navigate to `cd PaliGemma2-ONNX-Transformers.js/Web App` directory.
 3. Run `npm install` to install the packages.
 4. Run `node server.js` to start the server.
-5. Open `localhost:3000` on your web browser and enjoy inferencing PaliGemma 2.
+5. Open `localhost:3000` on your web browser and start inferencing with PaliGemma 2.
+
+# Results:
+<img src="https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/assets/paligemma2-onnx-output.gif"/>
 
