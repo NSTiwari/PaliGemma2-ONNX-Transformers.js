@@ -30,7 +30,7 @@ This repository is a step-by-step implementation of converting and quantizing th
   </tr>
 </table>
 
-3. [**Medium Blog**](https://tiwarinitin1999.medium.com/) for step-by-step implementation.
+3. [**Medium Blog**](https://medium.com/@tiwarinitin1999/inference-paligemma-2-with-transformers-js-5545986ac14a) for step-by-step implementation.
 4. [ONNX Community](https://huggingface.co/onnx-community)
 
 
