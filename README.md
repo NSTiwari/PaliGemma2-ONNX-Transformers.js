@@ -42,7 +42,7 @@ This project was developed as part of Google's ML Developer Programs Vertex AI s
 If you find this project useful for your work, please cite it using the following BibTeX entry:
 
 ```
-@misc{PaliGemma on Android using Hugging Face API,
+@misc{Inference PaliGemma 2 with Transformers.js,
   authors      = {Nitin Tiwari},
   title        = {Inference PaliGemma 2 with Transformers.js},
   year         = {2025},
