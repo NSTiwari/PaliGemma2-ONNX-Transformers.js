@@ -37,3 +37,16 @@ This repository is a step-by-step implementation of converting and quantizing th
 ## Acknowledgment:
 <img src="https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js/blob/main/assets/google.png">
 This project was developed as part of Google's ML Developer Programs Vertex AI sprint. Thanks to the MLDP Team for their generous support in providing GCP credits and Colab units to help facilitate this project.
+
+## Citation
+If you find this project useful for your work, please cite it using the following BibTeX entry:
+
+```
+@misc{PaliGemma on Android using Hugging Face API,
+  authors      = {Nitin Tiwari},
+  title        = {Inference PaliGemma 2 with Transformers.js},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/NSTiwari/PaliGemma2-ONNX-Transformers.js}},
+}
+```
