@@ -37,16 +37,43 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header Styling */
 header {
-    background-color: #1A237E;  /* Updated to the new background color */
+    background-color: #1A237E;
     color: #fff;
     text-align: center;
-    font-size: 24px;
-    padding: 15px;
-    border-bottom: 2px solid #120C55;  /* Slightly darker border for contrast */
+    padding: 25px 15px; /* Increased padding slightly */
+    border-bottom: 2px solid #120C55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+header h1 {
+    font-size: 26px; /* Slightly increased title size to match new credit size */
+    font-weight: bold;
+}
+
+/* Credit Line Styling */
+.header-credit {
+    font-size: 18px; /* Increased from 15px */
+    font-weight: 400;
+    color: #E8EAF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.header-logo {
+    height: 22px; /* Increased from 18px to match text */
+    width: auto;
+    display: block;
 }
 
 /* Image Section Styling */
@@ -56,7 +83,7 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    position: relative; /* Ensure it can hold both the image and canvas */
+    position: relative;
 }
 
 .image-container {
@@ -81,9 +108,9 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    pointer-events: none;  /* Prevent the canvas from interfering with image interactions */
-    width: 100%;  /* Ensure canvas scales with the image */
-    height: 100%; /* Match the image size */
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -114,9 +141,9 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;  /* Take up the full width */
-    height: 100%; /* Take up the full height */
-    opacity: 0;     /* Make it invisible */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
     cursor: pointer;
 }
 
@@ -132,7 +159,7 @@ header {
 
 /* Detect Button Styling */
 .input-section button {
-    background-color: #2979FF; /* Default button color */
+    background-color: #2979FF;
     border: none;
     color: white;
     font-size: 20px;
@@ -145,9 +172,8 @@ header {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the buttons */
 .input-section button:hover {
-    background-color: #2196F3;  /* Darker blue on hover */
+    background-color: #2196F3;
 }
 
 /* Status Section Styling */
@@ -155,7 +181,6 @@ header {
     text-align: center;
     padding: 12px;
 }
-
 
 #responseText {
     font-size: 18px; 
