@@ -1,0 +1,17 @@
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: transformers is installed from GitHub source because the ONNX export
+# patches for PaliGemma 2 may not be in the latest PyPI release.
+
+git+https://github.com/huggingface/transformers.git
+optimum[exporters,onnxruntime]
+onnxslim
+onnxconverter-common
+onnx-graphsurgeon==0.5.2
+onnxruntime
+onnxruntime-tools
+torch
+huggingface_hub
+Pillow
+tqdm
